@@ -1,0 +1,65 @@
+mcf:
+    version: 1.0
+
+metadata:
+    identifier: naturalearth-countries
+    language: en
+    charset: utf8
+    hierarchylevel: dataset
+    datestamp: 2018-05-21
+    dataseturi: https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries
+
+spatial:
+    datatype: vector
+    geomtype: point
+
+identification:
+    language: en
+    charset: utf8
+    title: Admin 0 - Countries
+    abstract: Countries distinguish between metropolitan (homeland) and independent and semi-independent portions of sovereign states. If you want to see the dependent overseas regions broken out (like in ISO codes, see France for example), use map units instead.  Each country is coded with a world region that roughly follows the United Nations setup.  Includes some thematic data from the United Nations, U.S. Central Intelligence Agency, and elsewhere.
+    extents:
+        spatial:
+            - bbox: [-180,-90,180,90]
+              crs: 4326
+    dates:
+        creation: 2009-12-02
+        publication: 2009-12-02
+    keywords:
+        default:
+            keywords: [countries, admin 0, boundaries]
+    topiccategory:
+        - boundaries
+    fees: None
+    accessconstraints: None
+    rights: Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.
+    url: https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries
+    status: onGoing
+    maintenancefrequency: continual
+
+contact:
+    pointOfContact: &contact_poc
+        organization: Natural Earth
+        url: https://www.naturalearthdata.com
+        individualname: Nathaniel Vaughn KELSO
+        positionname: Project Manager
+        phone: nil
+        fax: nil
+        address: nil
+        city: nil
+        administrativearea: nil
+        postalcode: nil
+        country: nil
+        email: nathaniel@naturalearthdata.com 
+        hoursofservice: nil
+        contactinstructions: email
+
+    distributor: *contact_poc
+
+distribution:
+    waf:
+        url: https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries
+        type: WWW:LINK
+        name: Admin 0 - Countries | Natural Earth
+        description: There are 247 countries in the world. Greenland as separate from Denmark. About Countries distinguish between metropolitan (homeland)
+        function: download

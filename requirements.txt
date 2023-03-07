@@ -1,0 +1,10 @@
+# Shapely
+OWSLib
+geopandas
+descartes
+folium
+bokeh
+ipyleaflet
+pandas-bokeh
+pygeometa # >0.7 removed by Just
+matplotlib
