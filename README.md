@@ -1,6 +1,6 @@
 ## GeoPython Workshop Jupyter Container: VSCode Dev Container Edition
 
-This is a clone of the Jupyter Container from the [GeoPython Workshop](https://github.com/geopython/geopython-workshop) but with a VS Code Dev Container configuration.
+This is a clone of the Jupyter Container from the [GeoPython Workshop](https://github.com/geopython/geopython-workshop) but with a [VS Code Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) configuration.
 It comes with a bunch of common geo-python packages pre-installed, e.g., gdal, shapely, rasterio, pyproj...
 * Open this folder in VS Code. It should ask if you want to re-open in a Dev Container environment. Click yes. 
 * VS Code will re-open and build the Dev Container. This will take several minutes (it's much quicker after the first time). Once this is done, you should be able to open a terminal, see installed packages with `pip list`, `pip install` any extra packages you need, and create and run Python code, e.g., `python3 my_code/hello.py`.
